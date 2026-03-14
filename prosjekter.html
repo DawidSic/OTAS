@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="nn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prosjekt – OtterdalVatne AS Betongsaging</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header class="site-nav">
+        <div class="container nav-inner">
+            <a class="brand" href="index.html" aria-label="Gå til framsida">
+                <img src="assets/logo.jpg" alt="OtterdalVatne AS Betongsaging logo">
+                <div class="title">
+                    <strong>OTTERDAL VATNE AS</strong>
+                    <span>BETONGSAGING</span>
+                </div>
+            </a>
+
+            <nav class="nav-links" aria-label="Hovudmeny (desktop)">
+                <a href="index.html#tjenester">Tenester</a>
+                <a href="prosjekter.html">Prosjekt</a>
+                <a href="index.html#kontakt">Kontakt</a>
+            </nav>
+
+            <div style="display:flex; gap:10px; align-items:center;">
+                <button class="btn burger" type="button" aria-label="Opne meny" aria-controls="mobile-menu"
+                    aria-expanded="false" data-menu-button>
+                    Meny
+                </button>
+                <a class="btn btn-primary" href="index.html#kontakt">Kontakt oss</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu-backdrop" data-menu-backdrop hidden></div>
+
+    <aside id="mobile-menu" class="mobile-menu" aria-label="Mobilmeny" hidden>
+        <div class="mobile-menu-head">
+            <strong>Meny</strong>
+            <button class="btn mobile-close" type="button" aria-label="Lukk meny" data-menu-close>
+                Lukk
+            </button>
+        </div>
+
+        <nav class="mobile-menu-links" aria-label="Hovudmeny (mobil)">
+            <a href="index.html#om" data-menu-link>Om oss</a>
+            <a href="index.html#tjenester" data-menu-link>Tenester</a>
+            <a href="prosjekter.html" data-menu-link>Prosjekt</a>
+            <a href="index.html#kontakt" data-menu-link>Kontakt</a>
+        </nav>
+
+        <div class="mobile-menu-meta">
+            <small>📍 Industrivegen 24B, 6150 Ørsta</small><br>
+            <small>📞 97863980</small>
+        </div>
+    </aside>
+
+    <main class="container">
+        <section class="section">
+            <h1 style="margin:0 0 10px; font-size: 36px; letter-spacing:.2px;">Prosjekt</h1>
+            <p class="lead">Eit utvalg av arbeid vi har utført for våre kunder.</p>
+
+            <div class="services" style="margin-top: 18px;">
+                <a href="prosjekt-sandetun.html" class="card" style="overflow:hidden; display:block; text-decoration:none; color:inherit;">
+                    <img src="assets/sandetun-omsorgsenter.jpg" alt="Sandetun Omsorgsenter" style="height:240px; width:100%; object-fit:cover;">
+                    <figcaption style="padding:12px 14px; color: var(--muted);">Sandetun Omsorgsenter – Betongsaging og kjerneboring</figcaption>
+                </a>
+
+                <a href="prosjekt-brunvoll.html" class="card" style="overflow:hidden; display:block; text-decoration:none; color:inherit;">
+                    <img src="assets/brunvoll-volda.jpg" alt="Brunvoll Volda" style="height:240px; width:100%; object-fit:cover;">
+                    <figcaption style="padding:12px 14px; color: var(--muted);">Brunvoll Volda – Betongsaging for industri</figcaption>
+                </a>
+
+                <a href="prosjekt-demning.html" class="card" style="overflow:hidden; display:block; text-decoration:none; color:inherit;">
+                    <img src="assets/demning-sykkylven.jpg" alt="Demning Sykkylven" style="height:240px; width:100%; object-fit:cover;">
+                    <figcaption style="padding:12px 14px; color: var(--muted);">Demning Sykkylven – Betongsaging</figcaption>
+                </a>
+
+                <a href="prosjekt-sykkylven.html" class="card" style="overflow:hidden; display:block; text-decoration:none; color:inherit;">
+                    <img src="assets/sykkylven-helsehus.jpg" alt="Sykkylven Helsehus" style="height:240px; width:100%; object-fit:cover;">
+                    <figcaption style="padding:12px 14px; color: var(--muted);">Sykkylven Helsehus – Komplett betongsaging</figcaption>
+                </a>
+
+                <a href="prosjekt-kai.html" class="card" style="overflow:hidden; display:block; text-decoration:none; color:inherit;">
+                    <img src="assets/kai-jobbar.jpg" alt="Diverse kai jobbar" style="height:240px; width:100%; object-fit:cover;">
+                    <figcaption style="padding:12px 14px; color: var(--muted);">Diverse kai jobbar – Betongsaging og riving</figcaption>
+                </a>
+
+                <a href="prosjekt-fos.html" class="card" style="overflow:hidden; display:block; text-decoration:none; color:inherit;">
+                    <img src="assets/fos-jobbar.jpg" alt="Diverse fjøs jobbar" style="height:240px; width:100%; object-fit:cover;">
+                    <figcaption style="padding:12px 14px; color: var(--muted);">Diverse fjøs jobbar – Betongsaging og riving</figcaption>
+                </a>
+            </div>
+
+            <div style="margin-top:18px;">
+                <a class="btn btn-outline" href="index.html">← Tilbake</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <small>© 2026 OtterdalVatne AS Betongsaging</small>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
