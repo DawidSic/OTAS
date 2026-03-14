@@ -29,7 +29,7 @@ body {
 	font-style: normal;
 	font-size: 1.6rem;
 	line-height: 1.6;
-	background: linear-gradient(rgba(236, 236, 236, 0.25), rgba(236, 236, 236, 0.25)), url('assets/concrete-texture.jpg');
+	background: linear-gradient(rgba(236, 236, 236, 0.25), rgba(236, 236, 236, 0.25)), url('/assets/concrete-texture.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -120,7 +120,7 @@ body {
 	position: fixed;
 	height: 84px;
 	width: 100%;
-	// background: linear-gradient(rgba(236, 236, 236, 0.25), rgba(236, 236, 236, 0.05)), url('assets/conc-bg.png');
+	// background: linear-gradient(rgba(236, 236, 236, 0.25), rgba(236, 236, 236, 0.05)), url('/assets/conc-bg.png');
 	background: rgba(27, 27, 27, 0.427);
 	backdrop-filter: blur(8px);
 	box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
@@ -169,7 +169,7 @@ body {
 	top: -50px;
 	height: 190px;
 	width: 220px;
-	background-image: url('assets/logo-no-bg-white-text.png');
+	background-image: url('/assets/logo-no-bg-white-text.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -216,7 +216,7 @@ body {
 	width: 220px;
 	height: 84px;
 	border-radius: 16px;
-	background-image: url('assets/logo-no-bg-white-text.png');
+	background-image: url('/assets/logo-no-bg-white-text.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -325,12 +325,12 @@ body {
 		top: 0;
 		width: 100%;
 		height: 100%;
-		background-image: url('assets/hero-mobile.png');
+		background-image: url('/assets/hero-mobile.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
 		@media (min-width: 768px) {
-			background-image: url('assets/hero.jpg');
+			background-image: url('/assets/hero.jpg');
 		}
 	}
 	.hero-text {
@@ -402,7 +402,7 @@ body {
 .about {
 	width: 100%;
 	padding: $section-padding 2rem;
-	background: linear-gradient(rgba(236, 236, 236, 0.55), rgba(236, 236, 236, 0.55)), url('assets/conc-bg.png');
+	background: linear-gradient(rgba(236, 236, 236, 0.55), rgba(236, 236, 236, 0.55)), url('/assets/conc-bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -461,7 +461,7 @@ body {
 		.about-img2 {
 			width: 100%;
 			height: 100%;
-			background: linear-gradient(rgba(21, 21, 21, 0.2), rgba(236, 236, 236, 0.1)), url('assets/about-img.jpg');
+			background: linear-gradient(rgba(21, 21, 21, 0.2), rgba(236, 236, 236, 0.1)), url('/assets/about-img.jpg');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
@@ -474,7 +474,7 @@ body {
 .services {
 	width: 100%;
 	padding: $section-padding 2rem;
-	background: linear-gradient(rgba(236, 236, 236, 0.55), rgba(236, 236, 236, 0.55)), url('assets/concrete-texture.jpg');
+	background: linear-gradient(rgba(236, 236, 236, 0.55), rgba(236, 236, 236, 0.55)), url('/assets/concrete-texture.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -559,25 +559,25 @@ body {
 		}
 
 		.card-1 {
-			background-image: url('assets/betongsaging.jpg');
+			background-image: url('/assets/betongsaging.jpg');
 		}
 		.card-2 {
-			background-image: url('assets/kjerneboring.jpg');
+			background-image: url('/assets/kjerneboring.jpg');
 			background-size: 140%;
 		}
 		.card-3 {
-			background-image: url('assets/riving.jpg');
+			background-image: url('/assets/riving.jpg');
 			background-position: bottom;
 		}
 		.card-4 {
-			background-image: url('assets/wiresaging.jpg');
+			background-image: url('/assets/wiresaging.jpg');
 		}
 		.card-5 {
-			background-image: url('assets/graving.jpg');
+			background-image: url('/assets/graving.jpg');
 			background-position: bottom;
 		}
 		.card-6 {
-			background-image: url('assets/mindrestøpearbeid.jpg');
+			background-image: url('/assets/mindrestøpearbeid.jpg');
 		}
 	}
 
@@ -602,7 +602,7 @@ body {
 	padding: $section-padding 2rem;
 	text-align: center;
 	color: whitesmoke;
-	background: linear-gradient(rgba(21, 21, 21, 0.45), rgba(236, 236, 236, 0.15)), url('assets/conc-bg.png');
+	background: linear-gradient(rgba(21, 21, 21, 0.45), rgba(236, 236, 236, 0.15)), url('/assets/conc-bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -1098,7 +1098,7 @@ body {
 
 .service-projects {
 	padding: 4rem 2rem;
-	background: linear-gradient($bg-dark, rgba(236, 236, 236, 0.15)), url('assets/conc-bg.png');
+	background: linear-gradient($bg-dark, rgba(236, 236, 236, 0.15)), url('/assets/conc-bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: $text-light;
