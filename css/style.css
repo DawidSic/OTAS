@@ -331,7 +331,7 @@ body {
   letter-spacing: -0.02em;
 }
 .hero .hero-text h1 span {
-  color: #7a1e1e;
+  color: #902424;
 }
 .hero .hero-text p {
   font-size: clamp(1.6rem, 2vw, 2.4rem);
@@ -1059,6 +1059,4 @@ body {
   .hero-text p {
     font-size: clamp(1.8rem, 2.5vw, 2rem);
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
